@@ -1,14 +1,16 @@
 # Unsupervised imitation learning
-D. Pogosov, s4750276
-Toy environment v1 
+Implementation of the final projecto of a university course
 
+Unsupervised imitation learning - an apporach to exploration in deep reinforcement learning systems. 
+The intuition here is that under uncertainty conditions an RL agent samples a possible action from the behavioral statistics of other  objects with lower uncertainty, pro rata to behavioral resemblance measure. We emphasize that all the objects may act as experts. An object with stronger statistical correlation between the given input and the coupled behaviour as well as with higher resemblance is more likely to "act" as an expert.
+
+Refer to the *uil_pogosov.pdf* for further details.
 
 ## Requirements
 * tensorflow 1.+
 * keras 2.+
 * python 3.5.0 or anaconda3 4.2.2
 * openai gym (the latest)
-
 
 ## Files description
 
